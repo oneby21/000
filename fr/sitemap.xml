@@ -15,19 +15,6 @@
                     hreflang="fr"
                     href="https://oneby21.github.io/fr/categories/"
                     /></url><url>
-            <loc>https://oneby21.github.io/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://oneby21.github.io/en/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://oneby21.github.io/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://oneby21.github.io/fr/tags/"
-                    /></url><url>
             <loc>https://oneby21.github.io/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -40,4 +27,17 @@
                     rel="alternate"
                     hreflang="fr"
                     href="https://oneby21.github.io/fr/"
+                    /></url><url>
+            <loc>https://oneby21.github.io/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://oneby21.github.io/en/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://oneby21.github.io/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="https://oneby21.github.io/fr/tags/"
                     /></url></urlset>
