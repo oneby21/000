@@ -3,7 +3,7 @@
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/409095645)
 
-一个大学生与 Obsidian
+
 ---------------
 
 本人哈工大英才学院大一新生，今天，我来谈一谈 Obsidian 在我的生活中起到的作用，希望对你有一些启发。**文章很长，都是我对于 obsidian 的使用心得，建议先收藏。**

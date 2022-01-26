@@ -2,9 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://oneby21.github.io/1/</loc><lastmod>2022-01-26T08:10:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://oneby21.github.io/posts/</loc><lastmod>2022-01-26T08:10:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://oneby21.github.io/</loc><lastmod>2022-01-26T08:10:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://oneby21.github.io/1/</loc><lastmod>2022-01-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://oneby21.github.io/posts/</loc><lastmod>2022-01-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://oneby21.github.io/</loc><lastmod>2022-01-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://oneby21.github.io/en/"
