@@ -2,11 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://oneby21.github.io/post/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://oneby21.github.io/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://oneby21.github.io/posts/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://oneby21.github.io/post/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://oneby21.github.io/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://oneby21.github.io/post/1/</loc><lastmod>2022-01-26T08:10:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://oneby21.github.io/post/</loc><lastmod>2022-01-26T08:10:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://oneby21.github.io/</loc><lastmod>2022-01-26T08:10:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://oneby21.github.io/en/"
@@ -19,7 +17,8 @@
                     hreflang="zh-cn"
                     href="https://oneby21.github.io/"
                     /></url><url>
-            <loc>https://oneby21.github.io/post/222/</loc><lastmod>2022-01-25T22:39:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://oneby21.github.io/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://oneby21.github.io/posts/</loc><lastmod>2022-01-26T07:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://oneby21.github.io/222/</loc><lastmod>2022-01-25T22:39:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://oneby21.github.io/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2winsows%E7%89%88/</loc><lastmod>2022-01-25T22:39:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://oneby21.github.io/categories/cat2/</loc><lastmod>2021-03-27T22:10:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
