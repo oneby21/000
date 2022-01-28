@@ -1,4 +1,4 @@
-# Hugo搭建个人博客（转载）
+# Hugo搭建个人博客（转载，有改动）
 
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [pengpengyang94.github.io](https://pengpengyang94.github.io/2020/04/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2windows%E7%89%88/)
