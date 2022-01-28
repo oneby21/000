@@ -169,11 +169,14 @@ git push -u origin master
 ---------------
 
 ```
-# ./yang-blog 目录下执行下面命令新建文章
-hugo new post/paper.md
+#开启预览
+hugo server -D
+```
+```
 # 将更新的内容，保存到 public 目录下
 hugo
-
+```
+```
 # 编辑完成后，更新github上的内容
 # /yang-blog/public 目录下
 git status  # 查看当前修改状态
