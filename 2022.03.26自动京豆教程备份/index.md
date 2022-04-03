@@ -3,6 +3,7 @@
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [ybbs.fun](https://ybbs.fun/thread/18)
 
 > 属于您的玩家的全新微博平台，在这里高聚群地，免费资源教程免费分享，您可以发布您发布的帖子交流以，也可以您的独家资源以获取收益
+![[Pasted image 20220403173836.png]]
 
 京东语音助手 + 京东 CK
 
