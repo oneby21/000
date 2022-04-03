@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - OneBy21</title>
+        <title>所有文章 - Sun 21&#39;blog</title>
         <link>https://oneby21.github.io/posts/</link>
-        <description>所有文章 | OneBy21</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>summer2zz@163.com (OneBy21)</managingEditor>
-            <webMaster>summer2zz@163.com (OneBy21)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://oneby21.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <description>所有文章 | Sun 21&#39;blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>summer2zz@163.com (Sun)</managingEditor>
+            <webMaster>summer2zz@163.com (Sun)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://oneby21.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>自动京豆教程转载备份</title>
     <link>https://oneby21.github.io/2022.03.26%E8%87%AA%E5%8A%A8%E4%BA%AC%E8%B1%86%E6%95%99%E7%A8%8B%E5%A4%87%E4%BB%BD/</link>
     <pubDate>Sat, 26 Mar 2022 00:00:00 &#43;0000</pubDate>

@@ -5,7 +5,7 @@
 
 ```
 #开启预览
-hugo server -D
+hugo server
 ```
 ```
 # 将更新的内容，保存到 public 目录下
