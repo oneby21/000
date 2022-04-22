@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>adguard广告拦截规则分享 - Sun 21&#39;blog</title><meta name="Description" content="Sun 21的博客"><meta property="og:title" content="adguard广告拦截规则分享" />
+<meta property="og:description" content="转载，侵删。本文由 简悦 SimpRead 转码， 原文地址 chjina.com Ad Guard 过滤规则最近用上了 Ad Guard , 发现软件里面显示的屏蔽的记录还挺多的。遂分享下收集的规则和 DNS 官方网站及项" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" /><meta property="og:image" content="https://oneby21.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-06T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://oneby21.github.io/logo.png"/>
+
+<meta name="twitter:title" content="adguard广告拦截规则分享"/>
+<meta name="twitter:description" content="转载，侵删。本文由 简悦 SimpRead 转码， 原文地址 chjina.com Ad Guard 过滤规则最近用上了 Ad Guard , 发现软件里面显示的屏蔽的记录还挺多的。遂分享下收集的规则和 DNS 官方网站及项"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" /><link rel="prev" href="https://oneby21.github.io/2022.02.07-youyu/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "adguard广告拦截规则分享",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/oneby21.github.io\/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99\/"
+        },"image": ["https:\/\/oneby21.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  971 ,
+        "url": "https:\/\/oneby21.github.io\/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99\/","datePublished": "2022-03-06T00:00:00+00:00","dateModified": "2022-03-06T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Sun 21","logo": "https:\/\/oneby21.github.io\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Sun"
+            },"description": ""
+    }
+    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-193031966-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-193031966-2');
+</script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Sun 21&#39;blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Sun 21&#39;blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/" title="关于"> 关于 </a><a class="menu-item" href="/link/" title="友链"> 友链 </a><a class="menu-item" href="https://github.com/oneby21/oneby21.github.io" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" selected>简体中文</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Sun 21&#39;blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Sun 21&#39;blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="关于">关于</a><a class="menu-item" href="/link/" title="友链">友链</a><a class="menu-item" href="https://github.com/oneby21/oneby21.github.io" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">adguard广告拦截规则分享</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sun</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-03-06">2022-03-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 971 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="busuanzi_container_page_pv">
+                    <i class="far fa-eye fa-fw"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;次阅读量</span>
+                </span>
+            </div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#anti-ad-推荐">anti-AD （推荐）</a></li>
+    <li><a href="#乘风规则-推荐">乘风规则 （推荐）</a></li>
+    <li><a href="#adgk针对安卓手机推荐">ADgk（针对安卓手机<strong>推荐</strong>）</a></li>
+    <li><a href="#cjx82630">cjx82630</a></li>
+    <li><a href="#知乎探索版">知乎（探索版）</a></li>
+    <li><a href="#其他规则">其他规则</a></li>
+    <li><a href="#小计">小计</a></li>
+    <li><a href="#adguard-home-优化部署">AdGuard Home 优化部署</a></li>
+    <li><a href="#最后">最后</a></li>
+    <li><a href="#感谢各位大佬的辛勤付出">感谢各位大佬的辛勤付出</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><blockquote>
+<p>转载，侵删。本文由 <a href="http://ksria.com/simpread/" target="_blank" rel="noopener noreffer">简悦 SimpRead</a> 转码， 原文地址 <a href="https://chjina.com/archives/11/" target="_blank" rel="noopener noreffer">chjina.com</a></p>
+</blockquote>
+<blockquote>
+<p>Ad Guard 过滤规则最近用上了 Ad Guard , 发现软件里面显示的屏蔽的记录还挺多的。遂分享下收集的规则和 DNS 官方网站及项目地址 AdGuard 官网：https://adguard.c&hellip;</p>
+</blockquote>
+<p>最近用上了 Ad Guard , 发现软件里面显示的屏蔽的记录还挺多的。遂分享下收集的规则和 DNS<br>
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdn.jsdelivr.net/gh/xyzz-by/imge@main/2021/02/20210302231620.png"
+        data-srcset="https://cdn.jsdelivr.net/gh/xyzz-by/imge@main/2021/02/20210302231620.png, https://cdn.jsdelivr.net/gh/xyzz-by/imge@main/2021/02/20210302231620.png 1.5x, https://cdn.jsdelivr.net/gh/xyzz-by/imge@main/2021/02/20210302231620.png 2x"
+        data-sizes="auto"
+        alt="https://cdn.jsdelivr.net/gh/xyzz-by/imge@main/2021/02/20210302231620.png"
+        title="https://cdn.jsdelivr.net/gh/xyzz-by/imge@main/2021/02/20210302231620.png" /><br>
+官方网站及项目地址<br>
+AdGuard 官网：<a href="https://adguard.com/" target="_blank" rel="noopener noreffer">https://adguard.com</a><br>
+AdGuardHome 项目地址：<a href="https://github.com/AdguardTeam/AdGuardHome" target="_blank" rel="noopener noreffer">https://github.com/AdguardTeam/AdGuardHome</a><br>
+现在记录下日常使用的规则</p>
+<h2 id="anti-ad-推荐">anti-AD （推荐）</h2>
+<ul>
+<li>
+<p>规则</p>
+<ul>
+<li>GitHub：<br>
+<a href="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt</a></li>
+<li>官网地址：<br>
+<a href="https://anti-ad.net/easylist.txt" target="_blank" rel="noopener noreffer">https://anti-ad.net/easylist.txt</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="乘风规则-推荐">乘风规则 （推荐）</h2>
+<p>简介：xinggsf，乘风广告过滤规则（含贴吧, 屏蔽电信挟持弹窗）</p>
+<ul>
+<li>广告规则</li>
+</ul>
+<p><a href="https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt" target="_blank" rel="noopener noreffer">https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt</a></p>
+<ul>
+<li>视频规则</li>
+</ul>
+<p><a href="https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt" target="_blank" rel="noopener noreffer">https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt</a></p>
+<ul>
+<li>其他规则</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt</a></p>
+<h2 id="adgk针对安卓手机推荐">ADgk（针对安卓手机<strong>推荐</strong>）</h2>
+<p>简介：适用于 AdGuard for Android 的去广告规则</p>
+<ul>
+<li>规则</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt</a></p>
+<h2 id="cjx82630">cjx82630</h2>
+<p>简介：无</p>
+<ul>
+<li>规则</li>
+</ul>
+<p><a href="https://gitee.com/cjx82630/cjxlist/raw/master/cjx-annoyance.txt" target="_blank" rel="noopener noreffer">https://gitee.com/cjx82630/cjxlist/raw/master/cjx-annoyance.txt</a></p>
+<h2 id="知乎探索版">知乎（探索版）</h2>
+<p>简介：无</p>
+<ul>
+<li>普通版</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt</a></p>
+<ul>
+<li>严格版</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt</a></p>
+<h2 id="其他规则">其他规则</h2>
+<ul>
+<li>HalfLife，规则合并自 EasylistChina、EasylistLite、CJX’sAnnoyance 合并规则 (<strong>推荐</strong>)</li>
+</ul>
+<p><a href="https://halflife.coding.net/p/list/d/list/git/raw/master/ad.txt" target="_blank" rel="noopener noreffer">https://halflife.coding.net/p/list/d/list/git/raw/master/ad.txt</a></p>
+<ul>
+<li>EasyPrivacy : EasyPrivacy 是隐私保护，不被跟踪（<strong>推荐</strong>）</li>
+</ul>
+<p><a href="https://easylist-downloads.adblockplus.org/easyprivacy.txt" target="_blank" rel="noopener noreffer">https://easylist-downloads.adblockplus.org/easyprivacy.txt</a></p>
+<ul>
+<li>EasyList China : 国内网站广告过滤的主规则</li>
+</ul>
+<p><a href="https://easylist-downloads.adblockplus.org/easylistchina.txt" target="_blank" rel="noopener noreffer">https://easylist-downloads.adblockplus.org/easylistchina.txt</a></p>
+<ul>
+<li>EasyList ：去广告主规则列表。主要面向英文网站，包含大量通用规则</li>
+</ul>
+<p><a href="https://easylist-downloads.adblockplus.org/easylist.txt" target="_blank" rel="noopener noreffer">https://easylist-downloads.adblockplus.org/easylist.txt</a></p>
+<ul>
+<li>CJX’s Annoyance List : 过滤烦人的自我推广，并补充 EasyPrivacy 隐私规则</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt</a></p>
+<ul>
+<li>don’t care about cookies：我不关心 Cookie 的问题，屏蔽网站的 cookies 相关的警告</li>
+</ul>
+<p><a href="https://www.i-dont-care-about-cookies.eu/abp/" target="_blank" rel="noopener noreffer">https://www.i-dont-care-about-cookies.eu/abp/</a></p>
+<ul>
+<li>大圣净化（主要针对国内视频网站）</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts</a></p>
+<ul>
+<li>yhosts(国内维护者屏蔽国内网站广告)</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/vokins/yhosts/master/hosts" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/vokins/yhosts/master/hosts</a></p>
+<h2 id="小计">小计</h2>
+<p>如果你觉得过滤得还不够，也可以在 “自定义过滤器规则” 按照以下过滤规则自己编写：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">||example.org^ – 拦截 example.org 域名及其所有子域名
+@@||example.org^ – 放行 example.org 及其所有子域名
+127.0.0.1 example.org – 将会把 example.org（但不包括它的子域名）解析到 127.0.0.1
+! 注释符号，表示这是一行注释
+
+这也是注释符号，同样表示这是一行注释
+
+/REGEX/ – 正则表达式模式
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="adguard-home-优化部署">AdGuard Home 优化部署</h2>
+<p>一、上游 DNS 设置</p>
+<p>1、不使用 ISP 默认 DNS 的好处是可以避免 ISP 通过 DNS 分析和掌握你的上网行为。我们把上游 DNS 更换成 DNS over TLS 的：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">tls://dns.adguard.com tls://dns.quad9.net
+
+tls://dns.google 
+
+tls://1.1.1.1
+
+tls://1.0.0.1
+</code></pre></td></tr></table>
+</div>
+</div><p>2、当然，你也可以使用其他的公共 DNS，不过国内公共的 DNS 暂不支持 DNS over TLS（博主用的是 223.5.5.5），比如：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">223.5.5.5
+
+223.6.6.6 
+
+114.114.114.114
+
+114.114.115.115 
+
+119.29.29.29 
+
+119.28.28.28
+
+180.76.76.76
+</code></pre></td></tr></table>
+</div>
+</div><p>3、如果你想启用 ipv6 的 DNS，可以添加以下几个（但是启用 ipv6 后，不能过滤视频中的广告）：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">2409:8028:2000::1111 
+
+2409:8028:2000::2222
+
+2620:0:ccc::2 2620:0:ccd::2
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<h2 id="最后">最后</h2>
+<h2 id="感谢各位大佬的辛勤付出">感谢各位大佬的辛勤付出</h2>
+</blockquote>
+<p>参考：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">1.https://github.com/otobtc/ADhosts/blob/master/README.md
+    2.https://github.com/233Bazinga/AdGuardHome
+    3.https://wp.gxnas.com/4393.html
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-03-06</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" data-title="adguard广告拦截规则分享"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Reddit" data-sharer="reddit" data-url="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" data-title="adguard广告拦截规则分享"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" data-title="adguard广告拦截规则分享"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://oneby21.github.io/2022.03.06-adguard%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99/" data-title="adguard广告拦截规则分享"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/baidu.svg"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2022.02.07-youyu/" class="prev" rel="prev" title="有语书社"><i class="fas fa-angle-left fa-fw"></i>有语书社</a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Sun</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></br>
+                <span id="busuanzi_container_site_pv">
+                    访问量 <span id="busuanzi_value_site_pv"></span> 次
+                </span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_uv">
+                    访客数 <span id="busuanzi_value_site_uv"></span> 人次
+                </span>
+                </br><script>
+                    function siteTime() {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = 2021;
+                        var startMonth = 3;
+                        var startDate = 27;
+                        var startHour = 19;
+                        var startMinute = 15;
+                        var startSecond = 11;
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+                        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                            minutes);
+                        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                            diffMinutes * minutes) / seconds);
+                        if (startYear == todayYear) {
+                            
+                            document.getElementById("sitetime").innerHTML = "已安全运行 " + diffDays + " 天 " + diffHours +
+                                " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                        } else {
+                            
+                            document.getElementById("sitetime").innerHTML = "已安全运行 " + diffYears + " 年 " + diffDays +
+                                " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                        }
+                    }
+                    setInterval(siteTime, 1000);
+                </script>
+                    <span id="sitetime">载入运行时间...</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="https://.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
