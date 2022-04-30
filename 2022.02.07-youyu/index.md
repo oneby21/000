@@ -1,7 +1,7 @@
 # 有语书社
 
 
+欢迎欢迎！
 欢迎加入
 失效了请反馈
-![](https://cdn.jsdelivr.net/gh/oneby21/pic/ob/202204231153462.png)
-
+![mmqrcode1649772845242](https://s2.loli.net/2022/04/12/cRMzxdSityQPJWa.png)
