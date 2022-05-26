@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模板s on Sun21的熊</title>
+    <link>https://oneby21.github.io/%E6%A8%A1%E6%9D%BF/</link>
+    <description>Recent content in 模板s on Sun21的熊</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>summer2zz@163.com (Sun)</managingEditor>
+    <webMaster>summer2zz@163.com (Sun)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://oneby21.github.io/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://oneby21.github.io/%E6%A8%A1%E6%9D%BF/templater%E6%97%B6%E9%97%B4%E6%88%B3%E6%A8%A1%E6%9D%BF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>summer2zz@163.com (Sun)</author>
+      <guid>https://oneby21.github.io/%E6%A8%A1%E6%9D%BF/templater%E6%97%B6%E9%97%B4%E6%88%B3%E6%A8%A1%E6%9D%BF/</guid>
+      <description>&amp;lt;% tp.file.cursor() %&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>
